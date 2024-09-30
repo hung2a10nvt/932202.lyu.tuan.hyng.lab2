@@ -1,0 +1,17 @@
+
+  .container {
+    width: 100%;
+  }
+  
+  .box {
+    height: 75px;
+    width: 150px;
+    display:inline-block;
+    margin:10px;
+    background-color: aquamarine;
+  }
+  .footer {
+    padding: 10px;
+    background-color: bisque;
+  }
+  

@@ -1,0 +1,30 @@
+.content {
+  border: 1px solid green;
+  background-color: aqua;
+  display: flex;
+}
+
+.list {
+  padding: 5px 0px 5px 0px;
+  min-width: 30%;
+  background-color: bisque;
+  height: fit-content;
+}
+
+.text {
+  background-color: darkgray;
+  margin-right: 5px;
+  margin-left: 10px;
+}
+p {
+  margin: 0px;
+}
+
+@media screen and (max-width: 1000px) {
+    .content {
+      flex-direction: column;
+    }
+    .text {
+      margin: 0;
+    }
+  }

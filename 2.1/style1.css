@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#left {
+  width: 200px;
+  height: 100%;
+  background-color: #c8fc98;
+  padding: 5px;
+}
+#content {
+  position: absolute;
+  left: 200px;
+  top: 100px;
+  padding: 5px;
+}
+header {
+  width: 100%;
+  height: 100px;
+  background: #eaeaea;
+  padding: 5px;
+}
+footer {
+  width: 100%;
+  line-height: 200%;
+  text-align: center;
+  background: black;
+}
+
+i {
+  color: red;
+}
+a {
+  color: #ffff80;
+}

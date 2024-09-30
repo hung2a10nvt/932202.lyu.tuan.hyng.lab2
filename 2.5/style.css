@@ -1,0 +1,20 @@
+* {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.upper {
+  color: white;
+  background-color: green;
+  width: 500px;
+  height: auto;
+}
+
+.lower {
+  color: white;
+  background-color: blue;
+  width: 500px;
+  height: auto;
+  border: 20px solid blue;
+  padding: 20px;
+}

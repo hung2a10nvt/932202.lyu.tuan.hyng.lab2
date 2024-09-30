@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.content {
+  border: 1px solid green;
+  margin: 5px;
+  background-color: aqua;
+  display: flex;
+}
+
+.list {
+  padding: 10px 40px;
+  min-width: 30%;
+  background-color: bisque;
+  height: fit-content;
+}
+
+.right {
+  display: flex;
+  flex-direction: column;
+  background-color: darkgrey;
+}
+
+img {
+  float: right;
+  width: 40%;
+}
